@@ -8,8 +8,8 @@ public class BubbleSort {
 
     public static void burbuja(int[] arreglo) {
         for (int i = 0; i < arreglo.length; i++) {
-            for (int j = 0; j < arreglo.length - i - 1; j++) {
-                if (arreglo[j] < arreglo[j + 1]) {
+            for (int j = 0; j < arreglo.length - i; j++) {
+                if (arreglo[j] > arreglo[j + 1]) {
                     int temp = arreglo[j];
                     arreglo[j] = arreglo[j + 1];
                     arreglo[j + 1] = temp;
