@@ -1,9 +1,9 @@
+import java.util.Arrays;
 public class BubbleSort {
-
     public static void main(String[] args) {
         int[] numeros = {5, 1, 4, 2, 8};
         burbuja(numeros);
-        System.out.println(numeros);
+        System.out.println("Arreglo ordenado: " + Arrays.toString(numeros));
     }
 
     public static void burbuja(int[] arreglo) {
